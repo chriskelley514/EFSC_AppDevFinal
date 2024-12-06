@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/balloonContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hills"> <!-- Replace with your custom background image -->
+
+    <!-- Container for Timer and Score stacked vertically -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|top"
+        android:paddingTop="16dp">
+
+        <!-- Timer TextView centered horizontally at the top -->
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 30"
+            android:textSize="18sp"
+            android:textColor="#000000" /> <!-- Black color for the timer -->
+
+        <!-- Score TextView centered horizontally under the timer -->
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textSize="18sp"
+            android:textColor="#000000" /> <!-- Black color for the score -->
+
+        <TextView
+            android:id="@+id/gameOverText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Game Over!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid background color -->
+    <solid android:color="#FF6200EE" /> <!-- You can replace this with any color code -->
+
+    <!-- Optional rounded corners -->
+    <corners android:radius="16dp" /> <!-- You can adjust the corner radius as needed -->
+
+    <!-- Optional gradient (if you want a gradient effect) -->
+    <!--
+    <gradient
+        android:startColor="#FF6200EE"
+        android:endColor="#6200EE"
+        android:angle="45" />
+    -->
+</shape>
